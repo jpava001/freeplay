@@ -2,32 +2,28 @@
 # frozen_string_literal: true
 
 # Simple script to fetch a Freeplay prompt template by name
-require 'net/http'
-require 'uri'
-require 'json'
-require 'dotenv/load'
-
-FREEPLAY_API_KEY = ENV['FREEPLAY_API_KEY']
-FREEPLAY_PROJECT_ID = ENV['FREEPLAY_PROJECT_ID']
-FREEPLAY_API_URL = ENV.fetch('FREEPLAY_API_URL', 'https://app.freeplay.ai/api/v2')
+require_relative 'lib/freeplay_client'
 
 # Prompt template name (using the ID you provided: 2e04d891-03c9-44ce-b01d-f4dcf306b8eb is the "greeting" template)
 PROMPT_NAME = 'greeting'
 ENVIRONMENT = 'latest'
 
+# Initialize Freeplay client
+config = FreeplayClient.configuration
+FreeplayClient::Utilities.validate_config!(config)
+
+client = FreeplayClient.create_client
+
 # Fetch the prompt template
-encoded_name = URI.encode_www_form_component(PROMPT_NAME).gsub('+', '%20')
-uri = URI("#{FREEPLAY_API_URL}/projects/#{FREEPLAY_PROJECT_ID}/prompt-templates/name/#{encoded_name}?environment=#{ENVIRONMENT}")
+result = client.fetch_prompt_template(name: PROMPT_NAME, environment: ENVIRONMENT)
 
-http = Net::HTTP.new(uri.host, uri.port)
-http.use_ssl = true
+if result[:status] != 200
+  puts "Error: Failed to fetch prompt template (Status: #{result[:status]})"
+  puts "Response: #{result[:body]}"
+  exit 1
+end
 
-request = Net::HTTP::Get.new(uri)
-request['Authorization'] = "Bearer #{FREEPLAY_API_KEY}"
-request['Content-Type'] = 'application/json'
-
-response = http.request(request)
-template = JSON.parse(response.body)
+template = result[:body]
 
 # Display the prompt
 puts "=" * 80

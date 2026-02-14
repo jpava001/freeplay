@@ -8,32 +8,13 @@
 #   gem install dotenv
 #   Copy .env.example to .env and fill in your values
 
-require 'net/http'
-require 'uri'
-require 'json'
 require 'securerandom'
-require 'dotenv/load' # Automatically loads .env file
-
-# Configuration - loaded from .env file
-FREEPLAY_API_KEY = ENV['FREEPLAY_API_KEY']
-FREEPLAY_PROJECT_ID = ENV['FREEPLAY_PROJECT_ID']
-FREEPLAY_PROMPT_VERSION_ID = ENV['FREEPLAY_PROMPT_VERSION_ID'] # Optional
-FREEPLAY_API_URL = ENV.fetch('FREEPLAY_API_URL', 'https://app.freeplay.ai/api/v2')
+require_relative 'lib/freeplay_client'
 
 # Path to test cases
 TEST_CASES_FILE = File.join(__dir__, 'data', 'reading_comprehension_test_cases.json')
 
-def validate_config!
-  missing = []
-  missing << 'FREEPLAY_API_KEY' unless FREEPLAY_API_KEY
-  missing << 'FREEPLAY_PROJECT_ID' unless FREEPLAY_PROJECT_ID
-
-  unless missing.empty?
-    puts "Error: Missing required environment variables: #{missing.join(', ')}"
-    puts "\nPlease set them in your .env file"
-    exit 1
-  end
-
+def validate_test_file!
   unless File.exist?(TEST_CASES_FILE)
     puts "Error: Test cases file not found at #{TEST_CASES_FILE}"
     exit 1
@@ -82,8 +63,8 @@ def simulate_llm_grading(test_case)
     scoring_output: scoring_output,
     model: 'gpt-4o',
     provider: 'openai',
-    input_tokens: estimate_tokens(prompt),
-    output_tokens: estimate_tokens(response_text)
+    input_tokens: FreeplayClient::Utilities.estimate_tokens(prompt),
+    output_tokens: FreeplayClient::Utilities.estimate_tokens(response_text)
   }
 end
 
@@ -107,81 +88,8 @@ def format_scoring_response(scoring_output)
   response
 end
 
-# Simple token estimation (roughly 4 characters per token)
-def estimate_tokens(text)
-  (text.length / 4.0).ceil
-end
-
-# Record a completion to Freeplay with custom metadata
-def record_completion(session_id:, messages:, inputs:, metadata:, call_info: nil, trace_id: nil)
-  uri = URI("#{FREEPLAY_API_URL}/projects/#{FREEPLAY_PROJECT_ID}/sessions/#{session_id}/completions")
-
-  payload = {
-    messages: messages,
-    inputs: inputs
-  }
-
-  # Only include prompt_info if we have a prompt template version ID
-  if FREEPLAY_PROMPT_VERSION_ID && !FREEPLAY_PROMPT_VERSION_ID.empty?
-    payload[:prompt_info] = {
-      prompt_template_version_id: FREEPLAY_PROMPT_VERSION_ID,
-      environment: 'latest'
-    }
-  end
-
-  # Add session metadata (includes student_grade, expected_score, etc.)
-  payload[:session_info] = {
-    custom_metadata: metadata
-  } if metadata && !metadata.empty?
-
-  # Add trace association if provided
-  payload[:trace_info] = { trace_id: trace_id } if trace_id
-
-  # Add call metadata if provided (timing, tokens, etc.)
-  payload[:call_info] = call_info if call_info
-
-  make_request(uri, payload)
-end
-
-# Record a trace to Freeplay
-def record_trace(session_id:, trace_id:, input:, output:, metadata: {})
-  uri = URI("#{FREEPLAY_API_URL}/projects/#{FREEPLAY_PROJECT_ID}/sessions/#{session_id}/traces/id/#{trace_id}")
-
-  payload = {
-    input: input,
-    output: output,
-    agent_name: 'reading-comprehension-grader'
-  }
-
-  # Add custom metadata to trace
-  payload[:custom_metadata] = metadata if metadata && !metadata.empty?
-
-  make_request(uri, payload)
-end
-
-# Generic HTTP POST helper
-def make_request(uri, payload)
-  http = Net::HTTP.new(uri.host, uri.port)
-  http.use_ssl = uri.scheme == 'https'
-
-  request = Net::HTTP::Post.new(uri)
-  request['Authorization'] = "Bearer #{FREEPLAY_API_KEY}"
-  request['Content-Type'] = 'application/json'
-  request.body = payload.to_json
-
-  response = http.request(request)
-
-  {
-    status: response.code.to_i,
-    body: response.body.empty? ? {} : JSON.parse(response.body)
-  }
-rescue StandardError => e
-  puts "Error making request: #{e.message}"
-  { status: 0, error: e.message }
-end
-
 # Process a single test case
-def process_test_case(test_case, index, total)
+def process_test_case(client, test_case, index, total)
   puts "\n" + "=" * 80
   puts "Processing test case #{index + 1}/#{total}: #{test_case['id']}"
   puts "=" * 80
@@ -230,7 +138,7 @@ def process_test_case(test_case, index, total)
 
   # Record the completion to Freeplay
   puts "Recording completion to Freeplay..."
-  completion_result = record_completion(
+  completion_result = client.record_completion(
     session_id: session_id,
     messages: messages,
     inputs: inputs,
@@ -250,7 +158,7 @@ def process_test_case(test_case, index, total)
 
   # Record the trace
   puts "Recording trace to Freeplay..."
-  trace_result = record_trace(
+  trace_result = client.record_trace(
     session_id: session_id,
     trace_id: trace_id,
     input: {
@@ -259,6 +167,7 @@ def process_test_case(test_case, index, total)
       student_answer: test_case['answer']
     },
     output: llm_result[:scoring_output],
+    agent_name: 'reading-comprehension-grader',
     metadata: metadata
   )
 
@@ -279,7 +188,12 @@ end
 
 # Main execution
 def main
-  validate_config!
+  # Initialize Freeplay client
+  config = FreeplayClient.configuration
+  FreeplayClient::Utilities.validate_config!(config)
+  validate_test_file!
+  
+  client = FreeplayClient.create_client
 
   puts "=" * 80
   puts "Reading Comprehension Test Cases - Freeplay Integration"
@@ -295,7 +209,7 @@ def main
   failed = 0
 
   test_cases.each_with_index do |test_case, index|
-    if process_test_case(test_case, index, test_cases.length)
+    if process_test_case(client, test_case, index, test_cases.length)
       successful += 1
     else
       failed += 1

@@ -7,17 +7,8 @@
 # 3. Simulates an LLM response
 # 4. Records both completion and trace to Freeplay for tracking
 
-require 'net/http'
-require 'uri'
-require 'json'
-require 'mustache'
 require 'securerandom'
-require 'dotenv/load'
-
-# Configuration
-FREEPLAY_API_KEY = ENV['FREEPLAY_API_KEY']
-FREEPLAY_PROJECT_ID = ENV['FREEPLAY_PROJECT_ID']
-FREEPLAY_API_URL = ENV.fetch('FREEPLAY_API_URL', 'https://app.freeplay.ai/api/v2')
+require_relative 'lib/freeplay_client'
 
 # Prompt template configuration
 PROMPT_TEMPLATE_ID = 'b86efe35-83e8-4370-b508-9cdeea74717c'
@@ -29,44 +20,6 @@ VARIABLES = {
   'language' => 'Spanish'
 }
 
-# Fetch prompt template by template ID and version ID
-def fetch_prompt_template(template_id, version_id)
-  uri = URI("#{FREEPLAY_API_URL}/projects/#{FREEPLAY_PROJECT_ID}/prompt-templates/id/#{template_id}/versions/#{version_id}")
-  
-  http = Net::HTTP.new(uri.host, uri.port)
-  http.use_ssl = true
-
-  request = Net::HTTP::Get.new(uri)
-  request['Authorization'] = "Bearer #{FREEPLAY_API_KEY}"
-  request['Content-Type'] = 'application/json'
-
-  response = http.request(request)
-  
-  if response.code.to_i != 200
-    puts "Error: Failed to fetch prompt template (Status: #{response.code})"
-    return nil
-  end
-  
-  JSON.parse(response.body)
-end
-
-# Render prompt content with variable substitution
-def render_prompt_messages(template, variables)
-  rendered_messages = []
-  
-  template['content'].each do |message|
-    next if message['kind'] == 'history' # Skip history placeholders
-    
-    # Use Mustache to render the content
-    rendered_text = Mustache.render(message['content'], variables)
-    rendered_messages << {
-      'role' => message['role'],
-      'content' => rendered_text
-    }
-  end
-  
-  rendered_messages
-end
 
 # Simulate an LLM response based on the prompt
 def simulate_llm_response(rendered_messages, variables)
@@ -88,60 +41,14 @@ def simulate_llm_response(rendered_messages, variables)
   }
 end
 
-# Record a completion to Freeplay
-def record_completion(session_id:, messages:, inputs:, call_info:, trace_id:, prompt_version_id:)
-  uri = URI("#{FREEPLAY_API_URL}/projects/#{FREEPLAY_PROJECT_ID}/sessions/#{session_id}/completions")
-
-  payload = {
-    messages: messages,
-    inputs: inputs,
-    call_info: call_info,
-    trace_info: { trace_id: trace_id },
-    prompt_info: {
-      prompt_template_version_id: prompt_version_id,
-      environment: 'latest'
-    }
-  }
-
-  make_post_request(uri, payload)
-end
-
-# Record a trace to Freeplay
-def record_trace(session_id:, trace_id:, input:, output:, agent_name:)
-  uri = URI("#{FREEPLAY_API_URL}/projects/#{FREEPLAY_PROJECT_ID}/sessions/#{session_id}/traces/id/#{trace_id}")
-
-  payload = {
-    input: input,
-    output: output,
-    agent_name: agent_name
-  }
-
-  make_post_request(uri, payload)
-end
-
-# Generic HTTP POST helper
-def make_post_request(uri, payload)
-  http = Net::HTTP.new(uri.host, uri.port)
-  http.use_ssl = uri.scheme == 'https'
-
-  request = Net::HTTP::Post.new(uri)
-  request['Authorization'] = "Bearer #{FREEPLAY_API_KEY}"
-  request['Content-Type'] = 'application/json'
-  request.body = payload.to_json
-
-  response = http.request(request)
-
-  {
-    status: response.code.to_i,
-    body: response.body.empty? ? {} : JSON.parse(response.body)
-  }
-rescue StandardError => e
-  puts "Error: #{e.message}"
-  { status: 0, error: e.message }
-end
-
 # Main execution
 def main
+  # Initialize Freeplay client
+  config = FreeplayClient.configuration
+  FreeplayClient::Utilities.validate_config!(config)
+  
+  client = FreeplayClient.create_client
+
   puts "=" * 80
   puts "Personalized Greeting with Freeplay Tracking"
   puts "=" * 80
@@ -159,12 +66,15 @@ def main
   puts "Step 1: Fetching prompt template..."
   puts "-" * 80
   
-  template = fetch_prompt_template(PROMPT_TEMPLATE_ID, PROMPT_VERSION_ID)
+  result = client.fetch_prompt_template(template_id: PROMPT_TEMPLATE_ID, version_id: PROMPT_VERSION_ID)
   
-  if template.nil?
+  if result[:status] != 200
     puts "Failed to fetch prompt template. Exiting."
+    puts "Error: #{result[:body]}"
     exit 1
   end
+  
+  template = result[:body]
   
   puts "✓ Fetched template: #{template['prompt_template_name']}"
   puts "  Model: #{template['metadata']['model']}"
@@ -175,7 +85,7 @@ def main
   puts "Step 2: Rendering prompt with variables..."
   puts "-" * 80
   
-  rendered_messages = render_prompt_messages(template, VARIABLES)
+  rendered_messages = client.render_prompt_messages(template, VARIABLES)
   
   puts "✓ Rendered prompt:"
   rendered_messages.each do |msg|
@@ -214,7 +124,7 @@ def main
     }
   }
   
-  completion_result = record_completion(
+  completion_result = client.record_completion(
     session_id: session_id,
     messages: complete_messages,
     inputs: VARIABLES,
@@ -239,7 +149,7 @@ def main
   # Build input summary
   input_summary = "Generate greeting for #{VARIABLES['name']} in #{VARIABLES['language']}"
   
-  trace_result = record_trace(
+  trace_result = client.record_trace(
     session_id: session_id,
     trace_id: trace_id,
     input: input_summary,
