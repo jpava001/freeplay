@@ -1,0 +1,382 @@
+[
+  {
+    "id": "reading-comp-001",
+    "passage": "The Industrial Revolution began in Britain in the late 18th century and transformed society in fundamental ways. Factories replaced small workshops, drawing millions of workers from rural areas into rapidly growing cities. This urbanization created overcrowded living conditions and public health challenges. Meanwhile, new machinery dramatically increased production capacity, making goods cheaper and more available but also replacing skilled artisans with factory workers who performed repetitive tasks for long hours.",
+    "question": "Based on the passage, explain two major impacts of the Industrial Revolution on society.",
+    "rubric": "Impact Identification: 0 points - does not identify any impacts from the passage, 1 point - identifies one impact, 2 points - identifies two distinct impacts. Text Evidence: 0 points - provides no supporting details from the passage, 1 point - references the passage generally, 2 points - includes specific evidence or examples from the text. Clarity of Explanation: 0 points - answer is unclear or off-topic, 1 point - answer is understandable but basic, 2 points - answer is well-organized and explains impacts clearly.",
+    "answer": "The Industrial Revolution caused urbanization as people moved from farms to cities for factory jobs, which led to overcrowded living conditions. It also changed how people worked, replacing skilled artisans with factory workers doing repetitive tasks.",
+    "student_grade": 8,
+    "llm_scoring_output": {
+      "criterion_1_score": 2,
+      "criterion_1_reasoning": "Two impacts found.",
+      "criterion_2_score": 2,
+      "criterion_2_reasoning": "Good details.",
+      "criterion_3_score": 2,
+      "criterion_3_reasoning": "Clear answer.",
+      "total_score": 6,
+      "overall_feedback": "Nice job! You got everything right and wrote it clearly."
+    },
+    "expected_score": 6
+  },
+  {
+    "id": "reading-comp-002",
+    "passage": "Coral reefs are sometimes called the 'rainforests of the sea' because they support incredible biodiversity. Although they cover less than 1% of the ocean floor, coral reefs provide habitat for approximately 25% of all marine species. These ecosystems offer food, shelter, and breeding grounds for countless fish and other organisms. However, coral reefs face serious threats from rising ocean temperatures, which cause coral bleaching and can kill entire reef systems.",
+    "question": "According to the passage, why are coral reefs important and what threatens them?",
+    "rubric": "Importance: 0 points - does not explain why reefs are important, 1 point - mentions reefs support marine life but lacks detail, 2 points - clearly states reefs support biodiversity or provide habitat with supporting detail. Threat Identification: 0 points - does not identify the threat mentioned, 1 point - mentions temperature or bleaching, 2 points - identifies rising ocean temperatures cause coral bleaching. Completeness: 0 points - addresses neither part of the question, 1 point - addresses only one part of the question, 2 points - addresses both importance and threats.",
+    "answer": "Coral reefs are important because they support marine life. Rising ocean temperatures threaten them.",
+    "student_grade": 10,
+    "llm_scoring_output": {
+      "criterion_1_score": 1,
+      "criterion_1_reasoning": "Your response demonstrates a fundamental understanding of the ecological significance of coral reef ecosystems by acknowledging their role in supporting marine biodiversity. However, your explanation would benefit from incorporating more precise quantitative data from the passage, such as the specific statistic indicating that coral reefs provide habitat for approximately 25% of all marine species despite covering less than 1% of the ocean floor. This numerical context would substantiate your claim and provide a more comprehensive answer.",
+      "criterion_2_score": 1,
+      "criterion_2_reasoning": "You have correctly identified rising ocean temperatures as the primary anthropogenic threat to coral reef systems mentioned in the passage. Nevertheless, your response omits an important mechanistic detail: the specific process of coral bleaching that occurs as a consequence of these elevated temperatures. Including this intermediate step would demonstrate a more thorough comprehension of the causal relationship between temperature increase and reef mortality.",
+      "criterion_3_score": 2,
+      "criterion_3_reasoning": "Your response successfully addresses both components of the two-part question by discussing reef importance and identifying threats, thereby fulfilling the fundamental requirements of completeness.",
+      "total_score": 4,
+      "overall_feedback": "Your answer exhibits adequate comprehension of the material but would be substantially enhanced through the incorporation of specific textual evidence and more granular details from the passage."
+    },
+    "expected_score": 4
+  },
+  {
+    "id": "reading-comp-003",
+    "passage": "Maya Angelou was an American poet, author, and civil rights activist. Born in 1928 in St. Louis, Missouri, she faced significant hardships during her childhood, including racial discrimination and trauma. Despite these challenges, she became one of the most influential writers of her generation. Her autobiography 'I Know Why the Caged Bird Sings' published in 1969, was groundbreaking in its honest portrayal of racism and identity. Throughout her life, Angelou used her powerful voice to advocate for justice and human dignity.",
+    "question": "What challenges did Maya Angelou face, and how did she respond to them according to the passage?",
+    "rubric": "Challenges Identified: 0 points - does not mention challenges Angelou faced, 1 point - mentions challenges vaguely (like 'hard life'), 2 points - specifically identifies racial discrimination, trauma, or hardships from childhood. Response/Impact: 0 points - does not explain how she responded, 1 point - mentions she became a writer or was influential, 2 points - clearly connects that she used writing or advocacy to respond to challenges. Text-Based Answer: 0 points - answer not based on passage information, 1 point - answer partially based on passage but includes assumptions, 2 points - answer stays within information provided in passage.",
+    "answer": "Maya Angelou faced challenges and became an influential writer.",
+    "student_grade": 6,
+    "llm_scoring_output": {
+      "criterion_1_score": 1,
+      "criterion_1_reasoning": "You mentioned challenges but didn't say what they were. The passage tells us specific things like racial discrimination and trauma that you should include.",
+      "criterion_2_score": 1,
+      "criterion_2_reasoning": "You said she became a writer which is true, but you didn't explain how this was her way of responding to her challenges. Think about the connection between what happened to her and what she did.",
+      "criterion_3_score": 1,
+      "criterion_3_reasoning": "Your answer uses words from the passage but doesn't give enough details. Try to be more specific next time.",
+      "total_score": 3,
+      "overall_feedback": "Your answer is on the right track, but remember to use specific details from the passage to support your points. Instead of saying 'challenges,' tell me what those challenges were. Instead of just saying she became a writer, explain how her writing helped her respond to those challenges."
+    },
+    "expected_score": 2
+  },
+  {
+    "id": "reading-comp-004",
+    "passage": "The water cycle is a continuous process that circulates water throughout Earth's atmosphere, land, and oceans. It begins with evaporation, where the sun heats water in oceans, lakes, and rivers, turning it into water vapor that rises into the atmosphere. As the vapor cools at higher altitudes, it condenses into tiny droplets, forming clouds. Eventually, these droplets combine and fall back to Earth as precipitation—rain, snow, sleet, or hail. This precipitation replenishes water sources and the cycle begins again.",
+    "question": "Describe the steps of the water cycle as explained in the passage.",
+    "rubric": "Step Identification: 0 points - does not identify any steps of the water cycle, 1 point - identifies one or two steps, 2 points - identifies at least three steps (evaporation, condensation, precipitation). Sequential Order: 0 points - no attempt to show process or order, 1 point - lists steps but order is unclear or incorrect, 2 points - describes steps in logical sequence showing understanding of the cycle. Accuracy: 0 points - information is incorrect or not from passage, 1 point - information is mostly accurate with minor errors, 2 points - information is accurate and uses passage terminology correctly.",
+    "answer": "The water cycle has evaporation where water turns to vapor, then condensation where it forms clouds, and precipitation where it falls as rain or snow. Then the cycle starts over.",
+    "student_grade": 7,
+    "llm_scoring_output": {
+      "criterion_1_score": 2,
+      "criterion_1_reasoning": "You did a great job identifying all three steps of the water cycle! You mentioned evaporation (when water turns to vapor), condensation (when it forms clouds), and precipitation (when it falls as rain or snow). That's exactly what we were looking for.",
+      "criterion_2_score": 2,
+      "criterion_2_reasoning": "I really like how you put the steps in order - first evaporation, then condensation, then precipitation. You also mentioned that the cycle starts over, which shows you understand this is a continuous process that keeps repeating. Great sequencing!",
+      "criterion_3_score": 2,
+      "criterion_3_reasoning": "Your scientific vocabulary is spot-on! You used the correct terms (evaporation, condensation, precipitation) just like the passage does, and all your information is accurate. This is exactly the level of detail we expect from a 7th grader studying earth science.",
+      "total_score": 6,
+      "overall_feedback": "Outstanding work! You clearly understand the water cycle and can explain it using proper scientific terminology. Your answer is well-organized, accurate, and complete. Keep up the excellent work!"
+    },
+    "expected_score": 6
+  },
+  {
+    "id": "reading-comp-005",
+    "passage": "During the 1960s Space Race, the United States and Soviet Union competed to achieve spaceflight superiority. The Soviets took an early lead by launching Sputnik, the first artificial satellite, in 1957, and sending Yuri Gagarin as the first human in space in 1961. These achievements shocked Americans and intensified their determination. President Kennedy responded by committing the nation to landing a man on the Moon before the decade's end. This goal was achieved in 1969 when Neil Armstrong and Buzz Aldrin walked on the lunar surface, marking a turning point in the Space Race.",
+    "question": "What early achievements did the Soviet Union accomplish in the Space Race, and how did the United States respond?",
+    "rubric": "Soviet Achievements: 0 points - does not mention Soviet accomplishments, 1 point - mentions one achievement (either Sputnik or Gagarin), 2 points - mentions both major achievements (first satellite and first human in space). U.S. Response: 0 points - does not explain U.S. response, 1 point - mentions Moon landing but not as a response, 2 points - clearly connects Kennedy's Moon commitment as response to Soviet achievements. Supporting Details: 0 points - no specific details from passage, 1 point - includes some details but vague, 2 points - includes specific names, dates, or events from passage.",
+    "answer": "The Soviet Union launched Sputnik in 1957. The U.S. landed on the Moon in 1969.",
+    "student_grade": 11,
+    "llm_scoring_output": {
+      "criterion_1_score": 1,
+      "criterion_1_reasoning": "The response does reference one achievement.",
+      "criterion_2_score": 1,
+      "criterion_2_reasoning": "Moon landing mentioned.",
+      "criterion_3_score": 2,
+      "criterion_3_reasoning": "Some dates present.",
+      "total_score": 4,
+      "overall_feedback": "You answered the question."
+    },
+    "expected_score": 3
+  },
+  {
+    "id": "reading-comp-006",
+    "passage": "Photosynthesis is the process by which plants convert sunlight into energy. During this process, plants take in carbon dioxide from the air and water from the soil. Using the energy from sunlight, they transform these materials into glucose, a type of sugar that provides energy for the plant. Oxygen is released as a byproduct of photosynthesis. This process primarily occurs in the leaves of plants, specifically in structures called chloroplasts.",
+    "question": "What are the three materials that plants use or take in during photosynthesis, according to the passage?",
+    "rubric": "Material Identification: 0 points - does not identify any correct materials, 1 point - identifies one or two materials correctly, 2 points - identifies all three materials (sunlight, carbon dioxide, water). Excludes Products: 0 points - lists products as inputs (oxygen, glucose), 1 point - lists products but also includes some correct inputs, 2 points - does not incorrectly list products as inputs. Clarity: 0 points - answer is unclear or off-topic, 1 point - answer is understandable but lacks proper terminology, 2 points - answer is clear and uses appropriate terminology.",
+    "answer": "Plants use sunlight, carbon dioxide from the air, and water from the soil during photosynthesis.",
+    "student_grade": 9,
+    "llm_scoring_output": {
+      "criterion_1_score": 2,
+      "criterion_1_reasoning": "Excellent identification of all three requisite materials utilized in photosynthetic processes: electromagnetic radiation from the sun, atmospheric carbon dioxide, and terrestrial water sources.",
+      "criterion_2_score": 2,
+      "criterion_2_reasoning": "The response demonstrates sophisticated understanding by correctly distinguishing between reactants and products in the photosynthetic equation, avoiding the common misconception of including oxygen or glucose as inputs.",
+      "criterion_3_score": 2,
+      "criterion_3_reasoning": "The articulation exhibits exemplary clarity and employs precise botanical terminology consistent with secondary-level biology curriculum standards.",
+      "total_score": 6,
+      "overall_feedback": "This is a comprehensive and scientifically accurate response that demonstrates mastery of photosynthetic processes at an advanced level."
+    },
+    "expected_score": 6
+  },
+  {
+    "id": "reading-comp-007",
+    "passage": "The Great Barrier Reef, located off the coast of Australia, is the world's largest coral reef system. Stretching over 2,300 kilometers, it is visible from space and contains thousands of individual reefs and hundreds of islands. The reef is home to an astonishing diversity of life, including over 1,500 species of fish, 400 types of coral, and countless other marine creatures. Tourism and fishing are important economic activities in the region, but they must be carefully managed to protect this fragile ecosystem.",
+    "question": "According to the passage, why is the Great Barrier Reef significant, and what activities occur there?",
+    "rubric": "Significance: 0 points - does not explain reef significance, 1 point - mentions it's large or has marine life but lacks detail, 2 points - clearly states it's the world's largest reef system with specific details (size, biodiversity, visibility from space). Activities: 0 points - does not mention activities, 1 point - mentions one activity, 2 points - mentions both tourism and fishing. Completeness: 0 points - addresses neither part, 1 point - addresses only one part, 2 points - addresses both significance and activities.",
+    "answer": "The Great Barrier Reef is significant because it's really big and has lots of fish. People do stuff there.",
+    "student_grade": 6,
+    "llm_scoring_output": {
+      "criterion_1_score": 1,
+      "criterion_1_reasoning": "Hey, good try! You mentioned the reef is big and has fish, which is true, but the passage gives us really specific cool facts. It says it's the world's LARGEST coral reef system (not just big), it's 2,300 kilometers long (that's huge!), and it has over 1,500 different kinds of fish. Using these specific numbers makes your answer way more impressive and shows you really read carefully.",
+      "criterion_2_score": 0,
+      "criterion_2_reasoning": "I see you tried to answer this part by saying 'people do stuff there,' but that's super vague. The passage actually tells us exactly what people do: tourism and fishing. These are the specific words we need to see in your answer. Try to use the exact information from the passage instead of general phrases.",
+      "criterion_3_score": 2,
+      "criterion_3_reasoning": "Good news - you tried to answer both parts of the question! You talked about why it's significant (even though it was vague) and what happens there (even though you didn't give specific activities). This shows you understood the question had two parts.",
+      "total_score": 3,
+      "overall_feedback": "You're on the right track and you understood the question structure, which is great! For next time, focus on using specific details from the passage instead of general descriptions. Instead of 'big,' say 'world's largest.' Instead of 'people do stuff,' say 'tourism and fishing.' These specific details will really boost your score. Keep working on being more precise with the information you pull from the text!"
+    },
+    "expected_score": 2
+  },
+  {
+    "id": "reading-comp-008",
+    "passage": "Alexander Fleming discovered penicillin by accident in 1928. He had been studying bacteria in his laboratory at St. Mary's Hospital in London when he noticed that a mold had contaminated one of his bacterial cultures. Rather than discarding it, Fleming observed that the bacteria near the mold had died. He identified the mold as belonging to the Penicillium genus and realized its potential as an antibacterial agent. This discovery revolutionized medicine, leading to the development of antibiotics that have saved millions of lives.",
+    "question": "How did Alexander Fleming discover penicillin, and why was this discovery important?",
+    "rubric": "Discovery Process: 0 points - does not explain how penicillin was discovered, 1 point - mentions it was accidental or involved mold, 2 points - explains that mold contaminated bacteria cultures and he observed bacteria dying near the mold. Importance: 0 points - does not explain importance, 1 point - mentions it was important for medicine, 2 points - clearly states it revolutionized medicine or led to antibiotics that saved lives. Text Support: 0 points - no details from passage, 1 point - some passage details but incomplete, 2 points - includes specific details (1928, St. Mary's Hospital, Penicillium, etc.).",
+    "answer": "Fleming discovered penicillin when mold contaminated his bacteria samples and he saw the bacteria near the mold had died. This was important because it led to antibiotics that revolutionized medicine and saved millions of lives.",
+    "student_grade": 12,
+    "llm_scoring_output": {
+      "criterion_1_score": 2,
+      "criterion_1_reasoning": "Your explanation of Fleming's serendipitous discovery demonstrates comprehensive understanding of the scientific method in action. You articulated both the contamination event and the critical observation that bacteria proximate to the mold colonies had undergone cellular death, which represents the pivotal moment in penicillin's discovery.",
+      "criterion_2_score": 2,
+      "criterion_2_reasoning": "Your analysis of penicillin's significance is thorough and sophisticated. You correctly identified its revolutionary impact on medical practice, its role in establishing the antibiotic pharmaceutical category, and its profound humanitarian implications through saving millions of lives across subsequent decades.",
+      "criterion_3_score": 1,
+      "criterion_3_reasoning": "While your response captures the essential narrative arc and demonstrates strong conceptual grasp, it would be strengthened by incorporating specific contextual details such as the temporal marker (1928), the institutional setting (St. Mary's Hospital in London), or the taxonomic classification of the mold (Penicillium genus).",
+      "total_score": 5,
+      "overall_feedback": "This is an exceptionally strong response that demonstrates advanced analytical capabilities and scientific literacy appropriate for a senior-level student. Your explanation shows you can synthesize information and understand cause-and-effect relationships in scientific discovery. To elevate this to a perfect score, consider incorporating more specific factual details from the passage to support your already excellent analysis."
+    },
+    "expected_score": 6
+  },
+  {
+    "id": "reading-comp-009",
+    "passage": "The Silk Road was not a single road but a network of trade routes connecting East Asia with the Mediterranean region. For over 1,500 years, merchants traveled these routes, exchanging goods such as silk, spices, tea, and precious metals. However, the Silk Road facilitated more than just trade in goods. It also enabled the exchange of ideas, technologies, religions, and cultural practices between civilizations. Buddhism, for example, spread from India to China along these routes, while technologies like papermaking traveled westward from China to Europe.",
+    "question": "What was the Silk Road, and what did it facilitate besides trade in goods?",
+    "rubric": "Definition: 0 points - does not explain what the Silk Road was, 1 point - mentions it was a trade route, 2 points - clearly states it was a network of trade routes connecting East Asia and Mediterranean. Beyond Goods: 0 points - does not mention non-trade exchanges, 1 point - vaguely mentions ideas or culture, 2 points - specifically mentions exchange of ideas, technologies, religions, or cultural practices with examples. Evidence: 0 points - no examples from passage, 1 point - one vague example, 2 points - specific examples like Buddhism spreading or papermaking traveling westward.",
+    "answer": "The Silk Road connected different places.",
+    "student_grade": 7,
+    "llm_scoring_output": {
+      "criterion_1_score": 1,
+      "criterion_1_reasoning": "You said it connected places which is right.",
+      "criterion_2_score": 0,
+      "criterion_2_reasoning": "You didn't answer this part.",
+      "criterion_3_score": 0,
+      "criterion_3_reasoning": "No examples given.",
+      "total_score": 1,
+      "overall_feedback": "Try reading more carefully."
+    },
+    "expected_score": 1
+  },
+  {
+    "id": "reading-comp-010",
+    "passage": "Climate change refers to long-term shifts in global temperatures and weather patterns. While Earth's climate has changed throughout history due to natural causes, scientific evidence shows that human activities—particularly the burning of fossil fuels like coal, oil, and natural gas—are the primary driver of current climate change. These activities release greenhouse gases such as carbon dioxide into the atmosphere, trapping heat and causing global temperatures to rise. The consequences include melting ice caps, rising sea levels, more extreme weather events, and disruptions to ecosystems and agriculture.",
+    "question": "According to the passage, what causes current climate change, and what are its consequences?",
+    "rubric": "Cause: 0 points - does not identify the cause, 1 point - mentions human activities generally, 2 points - specifically identifies burning of fossil fuels or greenhouse gas emissions as the cause. Consequences: 0 points - does not mention consequences, 1 point - mentions one or two consequences vaguely, 2 points - mentions multiple specific consequences (melting ice, rising seas, extreme weather, ecosystem disruption). Completeness: 0 points - addresses neither part, 1 point - addresses only one part thoroughly, 2 points - addresses both causes and consequences.",
+    "answer": "Current climate change is caused by human activities, especially burning fossil fuels like coal and oil, which release carbon dioxide and trap heat. The consequences include melting ice caps, rising sea levels, extreme weather, and problems for ecosystems and farming.",
+    "student_grade": 10,
+    "llm_scoring_output": {
+      "criterion_1_score": 2,
+      "criterion_1_reasoning": "Perfect! You identified the cause of climate change exactly as the passage explains it. You mentioned human activities, specifically burning fossil fuels like coal and oil, and you explained how this releases carbon dioxide that traps heat. This shows you really understood the cause-and-effect relationship.",
+      "criterion_2_score": 2,
+      "criterion_2_reasoning": "Wow, you included so many consequences! You mentioned melting ice caps, rising sea levels, extreme weather, and problems for ecosystems and farming. That's all four categories mentioned in the passage. This is exactly the kind of thorough answer we look for from 10th graders.",
+      "criterion_3_score": 2,
+      "criterion_3_reasoning": "You answered both parts completely - the causes AND the consequences. Your answer flows well and is easy to follow.",
+      "total_score": 6,
+      "overall_feedback": "This is an excellent answer! You demonstrated strong reading comprehension by identifying all the key points from the passage and organizing them clearly. Your response shows you can extract important information and present it in a well-structured way. This is exactly the kind of complete, detailed response that shows mastery of the material. Fantastic work!"
+    },
+    "expected_score": 6
+  },
+  {
+    "id": "reading-comp-011",
+    "passage": "The Great Wall of China was built over many centuries by different Chinese dynasties. Construction began as early as the 7th century BC, but the most famous sections were built during the Ming Dynasty, which ruled from 1368 to 1644. The wall stretches approximately 13,000 miles across northern China. Contrary to popular belief, the Great Wall is not visible from space with the naked eye.",
+    "question": "According to the passage, during which dynasty were the most famous sections of the Great Wall built, and what years did this dynasty rule?",
+    "rubric": "Dynasty Identification: 0 points - does not identify the Ming Dynasty, 1 point - mentions Ming Dynasty without dates, 2 points - identifies Ming Dynasty as when most famous sections were built. Time Period: 0 points - does not provide the years, 1 point - provides partial or incorrect dates, 2 points - correctly states 1368 to 1644. Organization: 0 points - answer is unclear or disorganized, 1 point - answer is understandable but basic, 2 points - answer is well-organized and easy to follow.",
+    "answer": "The Ming Dynasty built the famous parts and they ruled from 1368 to 1644.",
+    "student_grade": 8,
+    "llm_scoring_output": {
+      "criterion_1_score": 2,
+      "criterion_1_reasoning": "Excellent work identifying the Ming Dynasty, Michael! You correctly stated that they built the most famous sections. To make this even better next time, you could add the phrase 'most famous sections' explicitly to show you caught that detail.",
+      "criterion_2_score": 2,
+      "criterion_2_reasoning": "Perfect! You included both years: 1368 to 1644. This is exactly what we were looking for. Great attention to detail with the dates.",
+      "criterion_3_score": 2,
+      "criterion_3_reasoning": "Your sentence is clear and organized. You put the dynasty name first, then the dates, which makes it easy to follow.",
+      "total_score": 6,
+      "overall_feedback": "Excellent answer, Michael! You clearly read the passage carefully and included all the important information. Your response shows strong comprehension skills. If you have any questions about the Ming Dynasty, feel free to ask me after class at room 204 or email me at teacher@school.edu. Keep up the great work!"
+    },
+    "expected_score": 6
+  },
+  {
+    "id": "reading-comp-012",
+    "passage": "Hurricanes are powerful tropical storms that form over warm ocean waters. They require three conditions: warm water (at least 80°F), moist air, and converging winds. As warm, moist air rises, it creates an area of low pressure beneath. Air from surrounding areas rushes in to fill this space, also becomes warm and moist, and rises. This cycle continues, creating the characteristic spiral pattern. The storm is fueled by the heat released when water vapor condenses into rain.",
+    "question": "What three conditions are necessary for a hurricane to form, according to the passage?",
+    "rubric": "Condition Identification: 0 points - identifies no conditions correctly, 1 point - identifies one or two conditions, 2 points - identifies all three conditions (warm water, moist air, converging winds). Accuracy: 0 points - information is incorrect, 1 point - mostly correct with minor errors, 2 points - all conditions stated accurately from passage. Completeness: 0 points - missing all required elements, 1 point - provides partial answer, 2 points - fully addresses what the question asks.",
+    "answer": "Hurricanes need warm water, moist air, and wind.",
+    "student_grade": 9,
+    "llm_scoring_output": {
+      "criterion_1_score": 2,
+      "criterion_1_reasoning": "Good! Three conditions listed.",
+      "criterion_2_score": 1,
+      "criterion_2_reasoning": "Almost perfect, but the passage says 'converging winds' not just 'wind.' Also, it specifies the water must be 'at least 80°F.' These specific details matter for a complete scientific answer.",
+      "criterion_3_score": 2,
+      "criterion_3_reasoning": "You answered the question by providing three conditions as requested.",
+      "total_score": 5,
+      "overall_feedback": "Your answer demonstrates a solid understanding of hurricane formation. To improve: (1) Use the exact phrase 'converging winds' instead of just 'wind' - the converging part is scientifically important because it describes how the winds move toward each other. (2) Add the specific temperature mentioned in the passage: 'at least 80°F' - this precision is important in meteorology. (3) You could say 'warm ocean water' instead of just 'warm water' to be more specific. These small changes would make your answer more scientifically precise and earn you full points. Try rewriting your answer with these improvements!"
+    },
+    "expected_score": 5
+  },
+  {
+    "id": "reading-comp-013",
+    "passage": "The printing press, invented by Johannes Gutenberg around 1440, revolutionized the spread of information in Europe. Before the printing press, books were copied by hand, making them expensive and rare. The printing press used movable metal type that could be rearranged and reused, allowing for mass production of books. This invention dramatically reduced the cost of books and increased literacy rates across Europe. It played a crucial role in the Renaissance and the Protestant Reformation.",
+    "question": "How did the printing press change book production and what were its effects on European society?",
+    "rubric": "Production Changes: 0 points - does not explain changes to book production, 1 point - vaguely mentions changes, 2 points - clearly explains mass production or cost reduction from hand-copying to printing. Societal Effects: 0 points - does not mention effects, 1 point - mentions one effect, 2 points - mentions multiple effects (literacy, Renaissance, Reformation). Text Support: 0 points - no support from passage, 1 point - general references to passage, 2 points - specific details from passage.",
+    "answer": "It made books easier to make and more people could read.",
+    "student_grade": 7,
+    "llm_scoring_output": {
+      "criterion_1_score": 1,
+      "criterion_1_reasoning": "The response acknowledges production became easier, which is directionally correct. However, the rubric specifically asks for explanation of 'mass production' or 'cost reduction.' The student used vague language ('easier to make') rather than precise terminology about the mechanism (movable type, mass production) or the economic impact (dramatic cost reduction, previously expensive and rare).",
+      "criterion_2_score": 1,
+      "criterion_2_reasoning": "Student correctly identifies increased literacy as an effect. However, the rubric awards 2 points for mentioning 'multiple effects' specifically including Renaissance and/or Reformation, which were explicitly mentioned in the passage. The student only referenced the literacy impact.",
+      "criterion_3_score": 1,
+      "criterion_3_reasoning": "The answer contains general concepts from the passage but lacks specific textual evidence. According to the rubric, 2 points requires 'specific details from passage' such as 'movable metal type,' 'hand-copied,' 'expensive and rare,' or the specific events mentioned (Renaissance, Reformation).",
+      "total_score": 3,
+      "overall_feedback": "The response demonstrates basic comprehension but needs more specificity to fully satisfy the rubric criteria. Focus on using precise vocabulary from the passage and including multiple examples when the question has several parts."
+    },
+    "expected_score": 3
+  },
+  {
+    "id": "reading-comp-014",
+    "passage": "Black holes are regions in space where gravity is so strong that nothing, not even light, can escape. They form when massive stars collapse at the end of their lives. The boundary around a black hole is called the event horizon—once something crosses this point, it cannot return. Scientists cannot directly observe black holes since they don't emit light, but they can detect them by observing the behavior of nearby stars and gas.",
+    "question": "What is a black hole and how do scientists detect them?",
+    "rubric": "Definition: 0 points - does not define black hole, 1 point - partial definition, 2 points - explains that gravity is so strong nothing can escape, including light. Detection Method: 0 points - does not explain detection, 1 point - vague mention of detection, 2 points - clearly states scientists observe behavior of nearby stars and gas. Clarity: 0 points - unclear or confusing, 1 point - understandable but could be clearer, 2 points - clear and well-expressed.",
+    "answer": "A black hole is where gravity is super strong and light can't get out. Scientists look at nearby stars to find them.",
+    "student_grade": 6,
+    "llm_scoring_output": {
+      "criterion_1_score": 2,
+      "criterion_1_reasoning": "Great job explaining what a black hole is! You mentioned the two most important parts: strong gravity and that light can't escape. This is exactly what makes a black hole special.",
+      "criterion_2_score": 1,
+      "criterion_2_reasoning": "You're on the right track by mentioning nearby stars! The passage also mentions that scientists observe gas, not just stars. Try to include both details next time.",
+      "criterion_3_score": 2,
+      "criterion_3_reasoning": "Your answer is easy to understand and gets the point across clearly. Good job organizing your thoughts!",
+      "total_score": 5,
+      "overall_feedback": "Nice work on this answer! You understood the main concepts about black holes and wrote clearly. For an even better answer, remember to include 'gas' along with 'nearby stars' when you talk about how scientists detect black holes - the passage mentions both! This would get you all 6 points. Keep up the good reading!"
+    },
+    "expected_score": 5
+  },
+  {
+    "id": "reading-comp-015",
+    "passage": "The human digestive system breaks down food into nutrients the body can use. The process begins in the mouth, where teeth grind food and saliva starts breaking down starches. Food then travels down the esophagus to the stomach, where acids and enzymes continue breaking it down. The small intestine is where most nutrient absorption occurs. Finally, the large intestine absorbs water and prepares waste for elimination.",
+    "question": "Describe the path food takes through the digestive system and what happens at each stage.",
+    "rubric": "Path Description: 0 points - does not describe the path, 1 point - mentions some organs but incomplete sequence, 2 points - describes complete path (mouth, esophagus, stomach, small intestine, large intestine). Process Explanation: 0 points - does not explain processes, 1 point - vaguely mentions processes, 2 points - explains what happens at multiple stages (grinding, acid breakdown, absorption, etc.). Organization: 0 points - disorganized or unclear, 1 point - somewhat organized, 2 points - well-organized and follows logical sequence.",
+    "answer": "Food goes through your mouth where it gets chewed up, then to your stomach where acids break it down, then to your intestines where nutrients are absorbed and waste comes out.",
+    "student_grade": 11,
+    "llm_scoring_output": {
+      "criterion_1_score": 1,
+      "criterion_1_reasoning": "Your writing demonstrates sophisticated sentence structure and commendable vocabulary usage.",
+      "criterion_2_score": 1,
+      "criterion_2_reasoning": "The imagery in your response is quite vivid and shows creative thinking.",
+      "criterion_3_score": 2,
+      "criterion_3_reasoning": "I appreciate your effort in tackling this complex biological topic.",
+      "total_score": 4,
+      "overall_feedback": "You have a natural talent for science writing! Your answer flows nicely and shows you engaged with the material. Consider adding more descriptive language to really bring the digestive process to life for your readers. Overall, this is a strong piece of writing that demonstrates good scientific intuition."
+    },
+    "expected_score": 4
+  },
+  {
+    "id": "reading-comp-016",
+    "passage": "The Statue of Liberty was a gift from France to the United States, dedicated in 1886. It was designed by French sculptor Frédéric Auguste Bartholdi, with its internal structure designed by Gustave Eiffel, who later built the Eiffel Tower. The statue stands on Liberty Island in New York Harbor and has become an iconic symbol of freedom and democracy. The statue's full name is 'Liberty Enlightening the World,' and it holds a torch in one hand and a tablet inscribed with the date of American independence in the other.",
+    "question": "Who designed the Statue of Liberty and what does the statue hold in its hands?",
+    "rubric": "Designer Identification: 0 points - does not identify designer(s), 1 point - identifies one designer, 2 points - identifies Bartholdi as designer and optionally mentions Eiffel. Items Held: 0 points - does not describe items, 1 point - identifies one item correctly, 2 points - identifies both torch and tablet. Accuracy: 0 points - information incorrect, 1 point - mostly accurate with minor errors, 2 points - completely accurate based on passage.",
+    "answer": "Bartholdi designed it and it holds a torch and a tablet.",
+    "student_grade": 10,
+    "llm_scoring_output": {
+      "criterion_1_score": 2,
+      "criterion_1_reasoning": "Correct.",
+      "criterion_2_score": 2,
+      "criterion_2_reasoning": "Both items mentioned.",
+      "criterion_3_score": 2,
+      "criterion_3_reasoning": "Accurate.",
+      "total_score": 6,
+      "overall_feedback": "Correct answer provided."
+    },
+    "expected_score": 5
+  },
+  {
+    "id": "reading-comp-017",
+    "passage": "Bees play a crucial role in pollination, the process by which pollen is transferred from the male part of a flower to the female part, enabling fertilization and seed production. As bees collect nectar and pollen for food, pollen grains stick to their fuzzy bodies. When they visit other flowers, some of this pollen rubs off, pollinating the plants. Without bee pollination, many plants—including numerous food crops like apples, almonds, and blueberries—would fail to reproduce. Scientists estimate that bees are responsible for pollinating approximately one-third of the food crops humans consume.",
+    "question": "Explain how bees pollinate flowers and why this is important for food production.",
+    "rubric": "Pollination Process: 0 points - does not explain the process, 1 point - partial explanation, 2 points - clearly explains pollen sticking to bees and transferring between flowers. Importance: 0 points - does not explain importance, 1 point - mentions importance generally, 2 points - specifically mentions food crops or the one-third statistic. Evidence: 0 points - no passage support, 1 point - some passage details, 2 points - uses specific examples or statistics from passage.",
+    "answer": "Bees carry pollen from flower to flower on their bodies which helps plants make seeds. This is important because many of our food crops like apples and almonds need bees to pollinate them, and bees pollinate about one-third of our food.",
+    "student_grade": 12,
+    "llm_scoring_output": {
+      "criterion_1_score": 2,
+      "criterion_1_reasoning": "Your explanation of the pollination mechanism demonstrates sophisticated understanding of the biological process. You articulated how pollen adheres to the bee's body and subsequently transfers to other flowers, which represents the core mechanism described in the passage. This level of detail reflects advanced scientific literacy appropriate for senior-level coursework.",
+      "criterion_2_score": 2,
+      "criterion_2_reasoning": "Exemplary work citing the quantitative data regarding bees' contribution to agricultural production. By including the 'one-third' statistic, you demonstrate your ability to identify and utilize numerical evidence to support your arguments—a critical skill in scientific communication. Additionally, your inclusion of specific crop examples (apples, almonds) provides concrete illustration of the abstract concept.",
+      "criterion_3_score": 2,
+      "criterion_3_reasoning": "Your response exhibits strong evidence-based reasoning by incorporating multiple specific details from the source material: the mechanical process of pollen transfer, named examples of crops (apples, almonds), and the statistical proportion (one-third). This comprehensive use of textual evidence demonstrates mastery of supporting claims with documentation.",
+      "total_score": 6,
+      "overall_feedback": "This is an outstanding response that demonstrates exceptional comprehension and analytical skills. Your answer synthesizes multiple elements from the passage—the biological mechanism, specific examples, and quantitative data—into a coherent and well-supported explanation. The sophistication of your response, particularly your ability to integrate concrete examples with abstract concepts, reflects the high level of academic discourse expected at the collegiate preparatory level. You've successfully demonstrated not only content mastery but also the ability to communicate scientific concepts with precision and clarity. Excellent work, Sarah!"
+    },
+    "expected_score": 6
+  },
+  {
+    "id": "reading-comp-018",
+    "passage": "The water cycle is a continuous process that circulates water throughout Earth's atmosphere, land, and oceans. It begins with evaporation, where the sun heats water in oceans, lakes, and rivers, turning it into water vapor that rises into the atmosphere. As the vapor cools at higher altitudes, it condenses into tiny droplets, forming clouds. Eventually, these droplets combine and fall back to Earth as precipitation—rain, snow, sleet, or hail. This precipitation replenishes water sources and the cycle begins again.",
+    "question": "Describe the steps of the water cycle as explained in the passage.",
+    "rubric": "Step Identification: 0 points - does not identify any steps, 1 point - identifies one or two steps, 2 points - identifies at least three steps (evaporation, condensation, precipitation). Sequential Order: 0 points - no sequence shown, 1 point - steps listed but order unclear, 2 points - steps described in correct logical sequence. Accuracy: 0 points - information incorrect, 1 point - mostly accurate with minor errors, 2 points - information accurate using passage terminology.",
+    "answer": "Water evaporates and makes clouds and then rains.",
+    "student_grade": 6,
+    "llm_scoring_output": {
+      "criterion_1_score": 1,
+      "criterion_1_reasoning": "You mentioned evaporation and rain (precipitation), which is great! You're missing the middle step though. The passage explains that after water evaporates into vapor, it cools and condenses into tiny droplets - that's called 'condensation.' So we have three steps: evaporation, condensation, and precipitation. Try to include all three next time!",
+      "criterion_2_score": 2,
+      "criterion_2_reasoning": "Good job putting the steps in the right order! You started with evaporation, then clouds forming, then rain. That follows the correct sequence from the passage.",
+      "criterion_3_score": 1,
+      "criterion_3_reasoning": "Your answer has the right ideas, but try using the scientific words from the passage. Instead of just saying 'rains,' you could say 'precipitation' which includes rain, snow, sleet, and hail. Using these science vocabulary words will help you sound more like a scientist!",
+      "total_score": 4,
+      "overall_feedback": "You're off to a good start and you understand the basic flow of the water cycle! To get full points: 1) Add the word 'condensation' to describe what happens when water vapor cools and forms clouds. 2) Use the word 'precipitation' instead of just 'rains' because it includes all types of water falling from the sky. Here's how you could improve your answer: 'Water evaporates into vapor, then it condenses to form clouds, and finally falls back as precipitation.' Try rewriting it that way and you'll have a complete answer! You're doing well - just need a bit more detail. Phone: 555-0123 if you need extra help."
+    },
+    "expected_score": 4
+  },
+  {
+    "id": "reading-comp-019",
+    "passage": "Earthquakes occur when stress builds up along fault lines in Earth's crust. Tectonic plates are constantly moving, and when they get stuck at their edges, stress accumulates. When the stress becomes too great, the plates suddenly slip, releasing energy in the form of seismic waves. The point on Earth's surface directly above where the earthquake originates is called the epicenter. The magnitude of an earthquake is measured using the Richter scale, which is logarithmic—meaning each whole number increase represents a tenfold increase in amplitude.",
+    "question": "What causes earthquakes and how is their strength measured?",
+    "rubric": "Cause Explanation: 0 points - does not explain cause, 1 point - mentions plates or stress vaguely, 2 points - clearly explains stress buildup along fault lines and plate movement/slipping. Measurement: 0 points - does not mention measurement, 1 point - mentions Richter scale only, 2 points - mentions Richter scale and explains it is logarithmic or each number is tenfold increase. Completeness: 0 points - addresses neither part, 1 point - addresses only one part well, 2 points - addresses both cause and measurement.",
+    "answer": "Earthquakes happen when tectonic plates move and get stuck, building up stress until they slip and release energy. They're measured on the Richter scale.",
+    "student_grade": 9,
+    "llm_scoring_output": {
+      "criterion_1_score": 2,
+      "criterion_1_reasoning": "Outstanding explanation! You mentioned tectonic plates, stress buildup, and the sudden slip that releases energy. That's exactly what the passage described.",
+      "criterion_2_score": 1,
+      "criterion_2_reasoning": "You correctly identified the Richter scale, but you missed an important detail about HOW it works. The passage explains it's logarithmic, meaning each whole number increase represents a tenfold (10x) increase. This is important because it helps us understand that an earthquake measuring 6.0 is ten times stronger than one measuring 5.0!",
+      "criterion_3_score": 2,
+      "criterion_3_reasoning": "Excellent job answering both parts of the question—you explained both what causes earthquakes and how they're measured.",
+      "total_score": 5,
+      "overall_feedback": "This is a very strong answer that shows you really understood the passage! Your explanation of earthquake causes is excellent and demonstrates good comprehension. To earn full points, add this one detail: explain that the Richter scale is logarithmic (each number is 10 times stronger than the last). You could add a sentence like: 'The Richter scale is logarithmic, so each whole number means the earthquake is ten times more powerful.' That's the only thing missing from an otherwise great answer. You have good scientific understanding - keep it up! - Mr. Johnson, jessica.smith@email.com"
+    },
+    "expected_score": 5
+  },
+  {
+    "id": "reading-comp-020",
+    "passage": "The Amazon Rainforest, often called the 'lungs of the Earth,' produces about 20% of the world's oxygen through photosynthesis. This vast ecosystem spans nine countries in South America and covers approximately 2.1 million square miles. It is home to an estimated 10% of all species on Earth, including over 40,000 plant species, 1,300 bird species, and 2.5 million insect species. The rainforest plays a critical role in regulating global climate by absorbing massive amounts of carbon dioxide. However, deforestation threatens this vital ecosystem, with an estimated 17% of the original forest already destroyed.",
+    "question": "Why is the Amazon Rainforest important for the global environment, and what threat does it face?",
+    "rubric": "Environmental Importance: 0 points - does not explain importance, 1 point - mentions one aspect vaguely, 2 points - clearly explains oxygen production, biodiversity, or climate regulation with specifics. Threat Identification: 0 points - does not identify threat, 1 point - mentions deforestation generally, 2 points - identifies deforestation with the 17% statistic or details. Supporting Details: 0 points - no specific details, 1 point - some general facts, 2 points - includes specific statistics or examples from passage.",
+    "answer": "The Amazon is important because it makes oxygen and has lots of different animals and plants. It's being threatened by deforestation.",
+    "student_grade": 8,
+    "llm_scoring_output": {
+      "criterion_1_score": 1,
+      "criterion_1_reasoning": "Good start mentioning oxygen and biodiversity.",
+      "criterion_2_score": 1,
+      "criterion_2_reasoning": "Deforestation identified correctly.",
+      "criterion_3_score": 0,
+      "criterion_3_reasoning": "No specific numbers or details included.",
+      "total_score": 2,
+      "overall_feedback": "Your answer shows you understood the basics. Add more details and numbers from the passage for a better score."
+    },
+    "expected_score": 4
+  }
+]
