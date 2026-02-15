@@ -1,0 +1,382 @@
+[
+  {
+    "id": "assignment-eval-001",
+    "passage": "The Renaissance was a period of cultural rebirth in Europe that began in Italy in the 14th century. It marked a renewed interest in classical Greek and Roman learning, art, and philosophy. Artists like Leonardo da Vinci and Michelangelo created masterpieces that emphasized realism and human emotion. The invention of the printing press by Johannes Gutenberg around 1440 helped spread Renaissance ideas throughout Europe. Scholars began to question traditional authority and emphasized observation and experimentation, laying the groundwork for modern science.",
+    "question": "What characterized the Renaissance period, and what invention helped spread its ideas?",
+    "rubric": "Characterization: 0 points - does not describe Renaissance characteristics, 1 point - mentions one characteristic vaguely, 2 points - clearly identifies renewed interest in classical learning, art innovations, or scientific thinking. Invention: 0 points - does not identify the invention, 1 point - mentions printing press without context, 2 points - identifies printing press and explains its role in spreading ideas. Detail Support: 0 points - no supporting details, 1 point - some details provided, 2 points - includes specific examples like artists, dates, or impacts.",
+    "student_answer": "The Renaissance was characterized by renewed interest in Greek and Roman culture, realistic art from artists like da Vinci and Michelangelo, and new scientific thinking. The printing press, invented by Gutenberg around 1440, helped spread these ideas across Europe.",
+    "student_grade": 11,
+    "llm_scoring_output": {
+      "criterion_1_score": 2,
+      "criterion_1_reasoning": "Your response demonstrates comprehensive understanding by identifying multiple Renaissance characteristics: classical revival, artistic innovation with specific artists, and scientific developments.",
+      "criterion_2_score": 2,
+      "criterion_2_reasoning": "Excellent work identifying both the printing press and its inventor Gutenberg, plus explaining its crucial role in disseminating Renaissance ideas geographically.",
+      "criterion_3_score": 2,
+      "criterion_3_reasoning": "Outstanding use of specific supporting details including artist names (da Vinci, Michelangelo), the inventor (Gutenberg), and the approximate date (1440).",
+      "total_score": 6,
+      "overall_feedback": "This is an exemplary response that demonstrates thorough comprehension and effective use of textual evidence. Your answer is well-organized, specific, and complete."
+    },
+    "expected_score": 6
+  },
+  {
+    "id": "assignment-eval-002",
+    "passage": "Mitosis is the process of cell division that results in two identical daughter cells, each with the same number of chromosomes as the parent cell. The process has four main stages: prophase (chromosomes condense), metaphase (chromosomes align in the center), anaphase (chromosomes separate), and telophase (two nuclei form). Mitosis is essential for growth, repair, and asexual reproduction in organisms. Unlike meiosis, which produces sex cells with half the chromosomes, mitosis maintains the chromosome number.",
+    "question": "Describe the four stages of mitosis and explain why this process is important.",
+    "rubric": "Stage Description: 0 points - does not name stages, 1 point - names some stages without description, 2 points - names all four stages with brief descriptions. Purpose Explanation: 0 points - does not explain importance, 1 point - vaguely mentions importance, 2 points - clearly identifies growth, repair, or reproduction. Accuracy: 0 points - contains major errors, 1 point - mostly accurate with minor confusion, 2 points - scientifically accurate throughout.",
+    "student_answer": "Mitosis has prophase where chromosomes get visible, metaphase where they line up, anaphase where they split apart, and telophase where two cells start forming. It's important for organisms to grow and fix damaged tissues.",
+    "student_grade": 9,
+    "llm_scoring_output": {
+      "criterion_1_score": 2,
+      "criterion_1_reasoning": "Great job naming all four stages and providing descriptions! Your explanations capture the essential events of each phase clearly.",
+      "criterion_2_score": 2,
+      "criterion_2_reasoning": "Perfect identification of two key purposes: growth and tissue repair. This shows you understand why mitosis matters for living organisms.",
+      "criterion_3_score": 2,
+      "criterion_3_reasoning": "Your answer is scientifically accurate and uses appropriate biology terminology. The stage descriptions are correct and the purposes are valid.",
+      "total_score": 6,
+      "overall_feedback": "Excellent response! You've demonstrated strong understanding of mitosis by correctly identifying all stages, describing them accurately, and explaining their biological importance. This is exactly what we're looking for in a 9th grade biology answer."
+    },
+    "expected_score": 6
+  },
+  {
+    "id": "assignment-eval-003",
+    "passage": "The Bill of Rights, ratified in 1791, consists of the first ten amendments to the U.S. Constitution. These amendments were added to protect individual liberties and limit government power. The First Amendment protects freedom of speech, religion, press, and assembly. The Second Amendment addresses the right to bear arms. The Fourth Amendment protects against unreasonable searches and seizures. These rights remain fundamental to American democracy today.",
+    "question": "What is the Bill of Rights and what are three freedoms it protects?",
+    "rubric": "Definition: 0 points - does not define Bill of Rights, 1 point - partial definition, 2 points - identifies it as first ten amendments protecting individual rights. Freedoms Listed: 0 points - lists no freedoms, 1 point - lists one or two freedoms, 2 points - correctly lists three specific freedoms from the passage. Accuracy: 0 points - information incorrect, 1 point - mostly accurate but vague, 2 points - accurate with proper amendment references.",
+    "student_answer": "The Bill of Rights is the first ten amendments that protect people's rights. Three freedoms it protects are speech, religion, and being safe from searches.",
+    "student_grade": 8,
+    "llm_scoring_output": {
+      "criterion_1_score": 2,
+      "criterion_1_reasoning": "You correctly identified the Bill of Rights as the first ten amendments and mentioned their purpose of protecting rights. Well done!",
+      "criterion_2_score": 2,
+      "criterion_2_reasoning": "Excellent! You listed three specific freedoms: speech, religion, and protection from searches. All three are accurately drawn from the passage.",
+      "criterion_3_score": 1,
+      "criterion_3_reasoning": "Your information is accurate, but could be more precise. You could strengthen your answer by mentioning these are 'amendments to the Constitution' and were 'ratified in 1791.'",
+      "total_score": 5,
+      "overall_feedback": "Strong answer that covers the main points! You clearly understand what the Bill of Rights is and can identify specific protections. To earn full points, add a bit more detail about the constitutional context and dates."
+    },
+    "expected_score": 5
+  },
+  {
+    "id": "assignment-eval-004",
+    "passage": "Fractions represent parts of a whole. When adding fractions with different denominators, you must first find a common denominator. For example, to add 1/3 + 1/4, you need to convert both fractions to have the same denominator. The least common denominator of 3 and 4 is 12. Convert 1/3 to 4/12 and 1/4 to 3/12. Now you can add: 4/12 + 3/12 = 7/12.",
+    "question": "Explain the steps needed to add fractions with different denominators using the example from the passage.",
+    "rubric": "Process Understanding: 0 points - does not explain the process, 1 point - mentions common denominator but unclear, 2 points - clearly explains need to find common denominator first. Example Application: 0 points - does not use the example, 1 point - partially uses example, 2 points - correctly walks through 1/3 + 1/4 = 7/12. Completeness: 0 points - incomplete explanation, 1 point - explains most steps, 2 points - includes all steps: finding LCD, converting, adding.",
+    "student_answer": "You need a common denominator. For 1/3 + 1/4, the common denominator is 12, so you get 4/12 + 3/12 which equals 7/12.",
+    "student_grade": 7,
+    "llm_scoring_output": {
+      "criterion_1_score": 2,
+      "criterion_1_reasoning": "You correctly identified that you need a common denominator, which is the crucial first step. Good understanding of the concept!",
+      "criterion_2_score": 2,
+      "criterion_2_reasoning": "Excellent use of the example! You showed all the conversions (1/3 to 4/12, 1/4 to 3/12) and got the correct final answer of 7/12.",
+      "criterion_3_score": 1,
+      "criterion_3_reasoning": "Your answer includes the main steps, but could be more explicit about the conversion process. Try explaining WHY 1/3 becomes 4/12 (multiply numerator and denominator by 4).",
+      "total_score": 5,
+      "overall_feedback": "Nice work! You understand fraction addition and used the example correctly. To make your answer even better, add a sentence explaining how to convert each fraction: 'Multiply 1/3 by 4/4 to get 4/12, and multiply 1/4 by 3/3 to get 3/12.' This shows you understand the conversion step, not just the result."
+    },
+    "expected_score": 5
+  },
+  {
+    "id": "assignment-eval-005",
+    "passage": "Photosynthesis converts light energy into chemical energy stored in glucose. This process occurs in chloroplasts, specifically in structures called thylakoids. The light-dependent reactions capture sunlight energy and produce ATP and NADPH. These energy carriers are then used in the Calvin cycle (light-independent reactions) to fix carbon dioxide into glucose. Photosynthesis can be summarized by the equation: 6CO₂ + 6H₂O + light energy → C₆H₁₂O₆ + 6O₂.",
+    "question": "Where does photosynthesis occur and what are the two main stages?",
+    "rubric": "Location: 0 points - does not identify location, 1 point - mentions chloroplasts only, 2 points - specifies chloroplasts and thylakoids. Stages: 0 points - does not mention stages, 1 point - names one stage or uses incorrect terms, 2 points - identifies light-dependent reactions and Calvin cycle. Detail Quality: 0 points - no details about stages, 1 point - minimal stage description, 2 points - explains what each stage produces or accomplishes.",
+    "student_answer": "Photosynthesis happens in chloroplasts in the thylakoids. The two stages are light reactions that make ATP and NADPH, and the Calvin cycle that makes glucose from CO₂.",
+    "student_grade": 10,
+    "llm_scoring_output": {
+      "criterion_1_score": 2,
+      "criterion_1_reasoning": "Perfect! You identified both chloroplasts and thylakoids as the specific locations. This level of detail shows excellent attention to the passage.",
+      "criterion_2_score": 2,
+      "criterion_2_reasoning": "Outstanding identification of both stages with correct terminology: light-dependent reactions (light reactions) and the Calvin cycle.",
+      "criterion_3_score": 2,
+      "criterion_3_reasoning": "Exceptional detail! You explained what each stage produces: ATP and NADPH from light reactions, and glucose from CO₂ in the Calvin cycle. This demonstrates deep comprehension.",
+      "total_score": 6,
+      "overall_feedback": "This is an exemplary answer that demonstrates mastery of photosynthesis concepts. You provided precise location information, correctly named both stages, and explained their functions. Your answer is complete, accurate, and well-articulated. Excellent work!"
+    },
+    "expected_score": 6
+  },
+  {
+    "id": "assignment-eval-006",
+    "passage": "The water cycle describes how water moves through Earth's systems. Evaporation occurs when liquid water becomes water vapor due to heat from the sun. Transpiration is the release of water vapor from plants. Together, these processes add moisture to the atmosphere. As water vapor rises and cools, condensation occurs, forming clouds. Eventually, water returns to Earth as precipitation in the form of rain, snow, sleet, or hail. Some precipitation flows into streams and rivers (runoff), while some soaks into the ground (infiltration).",
+    "question": "Describe three processes in the water cycle and explain what happens in each.",
+    "rubric": "Process Identification: 0 points - names no processes, 1 point - names one or two processes, 2 points - correctly names three or more processes. Process Description: 0 points - no descriptions provided, 1 point - vague descriptions, 2 points - clearly explains what happens in each process. Accuracy: 0 points - major errors present, 1 point - mostly accurate, 2 points - all information accurate from passage.",
+    "student_answer": "Evaporation is when water turns to vapor from heat. Condensation is when vapor cools and makes clouds. Precipitation is when water falls back down as rain or snow.",
+    "student_grade": 6,
+    "llm_scoring_output": {
+      "criterion_1_score": 2,
+      "criterion_1_reasoning": "Great job! You named three important water cycle processes: evaporation, condensation, and precipitation.",
+      "criterion_2_score": 2,
+      "criterion_2_reasoning": "Your descriptions are clear and easy to understand. You explained what happens in each process simply and correctly.",
+      "criterion_3_score": 2,
+      "criterion_3_reasoning": "All your information is accurate and matches what the passage says. You didn't add anything incorrect or leave out important parts.",
+      "total_score": 6,
+      "overall_feedback": "Excellent answer! You identified three key processes and explained each one clearly and accurately. This shows you understand how the water cycle works. Great job for a 6th grader!"
+    },
+    "expected_score": 6
+  },
+  {
+    "id": "assignment-eval-007",
+    "passage": "Shakespeare's 'Romeo and Juliet' is a tragedy about two young lovers from feuding families in Verona, Italy. The play explores themes of love, fate, and the consequences of family conflict. Romeo Montague and Juliet Capulet fall in love despite their families' hatred. They secretly marry with the help of Friar Lawrence. A series of misunderstandings and impulsive decisions lead to the deaths of both main characters, which finally reconciles the two families.",
+    "question": "What is the main conflict in 'Romeo and Juliet' and how is it resolved?",
+    "rubric": "Conflict Identification: 0 points - does not identify the conflict, 1 point - vaguely mentions family problems, 2 points - clearly states the feud between Montagues and Capulets preventing Romeo and Juliet's love. Resolution: 0 points - does not explain resolution, 1 point - mentions deaths but unclear connection, 2 points - explains that their deaths lead to family reconciliation. Clarity: 0 points - confusing or off-topic, 1 point - understandable but could be clearer, 2 points - well-organized and easy to follow.",
+    "student_answer": "The conflict is that Romeo and Juliet love each other but their families hate each other. It gets resolved when they both die and the families stop fighting.",
+    "student_grade": 9,
+    "llm_scoring_output": {
+      "criterion_1_score": 2,
+      "criterion_1_reasoning": "You correctly identified the central conflict: the love between Romeo and Juliet is opposed by their families' mutual hatred. This is the core dramatic tension of the play.",
+      "criterion_2_score": 2,
+      "criterion_2_reasoning": "Good explanation of the resolution. You understood that their tragic deaths serve as the catalyst that finally ends the family feud and brings reconciliation.",
+      "criterion_3_score": 1,
+      "criterion_3_reasoning": "Your answer is clear and understandable, but it's quite brief. Adding family names (Montagues and Capulets) would make it more specific and complete.",
+      "total_score": 5,
+      "overall_feedback": "Strong answer that shows you understand the play's main conflict and tragic resolution. To improve, include the family names (Montagues and Capulets) and perhaps mention that the love is forbidden or secret. Your core understanding is solid!"
+    },
+    "expected_score": 5
+  },
+  {
+    "id": "assignment-eval-008",
+    "passage": "Erosion is the process by which soil and rock are worn away and transported by natural forces like water, wind, ice, and gravity. Water erosion occurs when rain or rivers carry away soil particles. Wind erosion happens in dry areas where wind picks up loose soil. Glacial erosion involves ice moving and scraping rock and soil. Erosion can have negative effects like loss of fertile topsoil, but it also creates features like canyons and valleys. Human activities such as deforestation and poor farming practices can accelerate erosion.",
+    "question": "What is erosion and what are three natural forces that cause it?",
+    "rubric": "Definition: 0 points - does not define erosion, 1 point - partial or unclear definition, 2 points - clearly explains erosion as wearing away and transporting soil/rock. Forces Identified: 0 points - no forces mentioned, 1 point - one or two forces listed, 2 points - three or more forces correctly identified (water, wind, ice, gravity). Examples: 0 points - no examples or context, 1 point - vague references, 2 points - provides specific examples like rain, rivers, or glaciers.",
+    "student_answer": "Erosion is when stuff gets worn away. Three forces are water, wind, and ice.",
+    "student_grade": 7,
+    "llm_scoring_output": {
+      "criterion_1_score": 1,
+      "criterion_1_reasoning": "You have the basic idea that erosion involves wearing away, but your definition is too informal ('stuff'). The passage specifically mentions soil and rock being worn away and transported.",
+      "criterion_2_score": 2,
+      "criterion_2_reasoning": "Perfect! You correctly identified three natural forces that cause erosion: water, wind, and ice. All three are mentioned in the passage.",
+      "criterion_3_score": 0,
+      "criterion_3_reasoning": "Your answer doesn't include any specific examples of how these forces work, like rain carrying soil or glaciers scraping rock.",
+      "total_score": 3,
+      "overall_feedback": "You're on the right track with the forces, but your answer needs more detail. Improve your definition by being specific: 'Erosion is when soil and rock are worn away and transported by natural forces.' Also, add examples like 'water from rain and rivers carries away soil' or 'glaciers scrape and move rock.' Being more specific and formal will significantly improve your grade."
+    },
+    "expected_score": 3
+  },
+  {
+    "id": "assignment-eval-009",
+    "passage": "The French Revolution began in 1789 and fundamentally changed France's political system. Discontent grew due to economic problems, food shortages, and resentment of the monarchy's absolute power. On July 14, 1789, revolutionaries stormed the Bastille prison in Paris, a symbolic act of defiance against royal authority. The revolution led to the execution of King Louis XVI and Queen Marie Antoinette. It also produced the Declaration of the Rights of Man and of the Citizen, which proclaimed liberty, equality, and fraternity.",
+    "question": "What caused the French Revolution and what were two significant outcomes?",
+    "rubric": "Causes: 0 points - does not explain causes, 1 point - mentions one cause vaguely, 2 points - identifies multiple causes like economic problems, food shortages, or opposition to monarchy. Outcomes: 0 points - no outcomes mentioned, 1 point - mentions one outcome, 2 points - clearly identifies two outcomes (execution of royals, Declaration, Bastille). Completeness: 0 points - addresses neither part, 1 point - addresses only one part thoroughly, 2 points - thoroughly addresses both causes and outcomes.",
+    "student_answer": "The French Revolution was caused by economic problems and anger at the king. Two outcomes were the execution of King Louis XVI and the Declaration of the Rights of Man.",
+    "student_grade": 11,
+    "llm_scoring_output": {
+      "criterion_1_score": 2,
+      "criterion_1_reasoning": "Excellent identification of causes! You mentioned both economic problems and opposition to the monarchy ('anger at the king'), which were central factors leading to revolution.",
+      "criterion_2_score": 2,
+      "criterion_2_reasoning": "Perfect selection of significant outcomes. The execution of Louis XVI and the Declaration of the Rights of Man were indeed two of the most important results of the revolution.",
+      "criterion_3_score": 2,
+      "criterion_3_reasoning": "Your answer thoroughly addresses both parts of the question with specific, accurate information. Well-organized response.",
+      "total_score": 6,
+      "overall_feedback": "Outstanding answer! You demonstrated comprehensive understanding by identifying key causes and selecting two highly significant outcomes. Your response is concise, accurate, and complete. This is exactly the level of historical analysis expected at the 11th grade level."
+    },
+    "expected_score": 6
+  },
+  {
+    "id": "assignment-eval-010",
+    "passage": "Density is a measure of how much mass is contained in a given volume. The formula for density is: Density = Mass ÷ Volume, or D = m/V. Density is usually expressed in grams per cubic centimeter (g/cm³) or kilograms per cubic meter (kg/m³). Objects with high density have their particles packed tightly together, while low-density objects have particles spread apart. Whether an object floats or sinks in water depends on its density compared to water's density (1 g/cm³). Objects less dense than water float; objects more dense sink.",
+    "question": "What is the formula for density and how does density determine if an object floats or sinks?",
+    "rubric": "Formula: 0 points - does not provide formula, 1 point - provides incomplete formula, 2 points - correctly states D = m/V or Density = Mass ÷ Volume. Floating/Sinking: 0 points - does not explain relationship, 1 point - mentions density matters but unclear how, 2 points - clearly explains objects less dense than water float, more dense sink. Reference Point: 0 points - no mention of water's density, 1 point - vague reference to water, 2 points - mentions water's density is 1 g/cm³.",
+    "student_answer": "The formula is Density = Mass divided by Volume, or D = m/V. Objects less dense than water (1 g/cm³) will float, and objects more dense than water will sink.",
+    "student_grade": 8,
+    "llm_scoring_output": {
+      "criterion_1_score": 2,
+      "criterion_1_reasoning": "Perfect! You provided the complete formula in both word form and symbolic notation. This shows thorough understanding.",
+      "criterion_2_score": 2,
+      "criterion_2_reasoning": "Excellent explanation! You clearly stated the relationship: less dense objects float, more dense objects sink. Very clear and accurate.",
+      "criterion_3_score": 2,
+      "criterion_3_reasoning": "Outstanding inclusion of water's specific density value (1 g/cm³). This shows you read carefully and understand the reference point for comparison.",
+      "total_score": 6,
+      "overall_feedback": "Perfect answer! You provided the complete formula, explained the floating/sinking relationship clearly, and included the specific density of water. This demonstrates complete comprehension of the concept. Excellent work!"
+    },
+    "expected_score": 6
+  },
+  {
+    "id": "assignment-eval-011",
+    "passage": "The Harlem Renaissance was a cultural movement during the 1920s centered in the Harlem neighborhood of New York City. African American artists, writers, musicians, and intellectuals created works that celebrated Black culture and challenged racial stereotypes. Key figures included poet Langston Hughes, novelist Zora Neale Hurston, and jazz musician Duke Ellington. The movement produced literature, music, art, and theater that explored the African American experience. It marked a turning point in Black cultural expression and influenced American culture broadly.",
+    "question": "What was the Harlem Renaissance and who were two key figures involved?",
+    "rubric": "Definition: 0 points - does not define the movement, 1 point - vague description, 2 points - identifies it as a cultural movement in 1920s Harlem celebrating Black culture. Key Figures: 0 points - no figures named, 1 point - one figure named, 2 points - two or more figures correctly identified from passage. Significance: 0 points - no mention of importance, 1 point - vague importance stated, 2 points - mentions challenging stereotypes or influence on American culture.",
+    "student_answer": "The Harlem Renaissance was a cultural movement in the 1920s in Harlem where Black artists created works. Two key figures were Langston Hughes and Duke Ellington.",
+    "student_grade": 10,
+    "llm_scoring_output": {
+      "criterion_1_score": 2,
+      "criterion_1_reasoning": "Good definition! You correctly identified the time period (1920s), location (Harlem), and that it involved Black artists creating works. This captures the essence of the movement.",
+      "criterion_2_score": 2,
+      "criterion_2_reasoning": "Perfect! You named two key figures from the passage: Langston Hughes (poet) and Duke Ellington (jazz musician). Both were central to the movement.",
+      "criterion_3_score": 0,
+      "criterion_3_reasoning": "Your answer doesn't mention why the Harlem Renaissance was significant. The passage discusses how it challenged stereotypes, explored African American experience, and influenced American culture broadly.",
+      "total_score": 4,
+      "overall_feedback": "You correctly identified what the Harlem Renaissance was and named two important figures. To strengthen your answer, add a sentence about its significance: 'It challenged racial stereotypes and celebrated Black culture' or 'It influenced American culture and was a turning point in Black cultural expression.' This would show deeper understanding of why this movement mattered."
+    },
+    "expected_score": 4
+  },
+  {
+    "id": "assignment-eval-012",
+    "passage": "Ecosystems are communities of living organisms interacting with each other and their physical environment. Energy flows through ecosystems in food chains and food webs. Producers, like plants, convert sunlight into energy through photosynthesis. Primary consumers (herbivores) eat producers. Secondary consumers (carnivores) eat primary consumers. Decomposers break down dead organisms and return nutrients to the soil. This cycling of energy and nutrients keeps ecosystems functioning. Changes to one part of an ecosystem can affect other parts.",
+    "question": "Describe the flow of energy in an ecosystem from producers to decomposers.",
+    "rubric": "Producer Role: 0 points - does not mention producers, 1 point - mentions plants but unclear role, 2 points - explains producers convert sunlight to energy through photosynthesis. Consumer Levels: 0 points - does not describe consumers, 1 point - mentions consumers vaguely, 2 points - clearly distinguishes primary consumers (herbivores) and secondary consumers (carnivores). Decomposer Role: 0 points - does not mention decomposers, 1 point - mentions decomposers without explaining role, 2 points - explains decomposers break down dead organisms and return nutrients.",
+    "student_answer": "Producers like plants make energy from sunlight through photosynthesis. Primary consumers eat the plants, then secondary consumers eat the primary consumers. Finally, decomposers break down dead things and put nutrients back in the soil.",
+    "student_grade": 7,
+    "llm_scoring_output": {
+      "criterion_1_score": 2,
+      "criterion_1_reasoning": "Excellent! You explained that producers (plants) make energy from sunlight through photosynthesis. This is exactly right.",
+      "criterion_2_score": 2,
+      "criterion_2_reasoning": "Great job showing the energy flow! You correctly described primary consumers eating plants and secondary consumers eating primary consumers. Clear understanding of the levels.",
+      "criterion_3_score": 2,
+      "criterion_3_reasoning": "Perfect explanation of decomposers! You said they break down dead things and return nutrients to soil, which completes the cycle. Well done!",
+      "total_score": 6,
+      "overall_feedback": "Outstanding answer! You accurately described the complete flow of energy through an ecosystem, from producers to consumers to decomposers. Your answer is clear, organized, and includes all the key components. This demonstrates excellent understanding of ecosystem energy flow. Keep up the great work!"
+    },
+    "expected_score": 6
+  },
+  {
+    "id": "assignment-eval-013",
+    "passage": "The Cold War was a period of geopolitical tension between the United States and the Soviet Union from 1947 to 1991. Rather than direct military conflict, it involved ideological competition between capitalism and communism, arms races, proxy wars, and space exploration rivalry. Key events included the Berlin Airlift (1948-49), the Cuban Missile Crisis (1962), and the Space Race. The construction of the Berlin Wall in 1961 became a powerful symbol of the division between East and West. The Cold War ended with the fall of the Berlin Wall in 1989 and the dissolution of the Soviet Union in 1991.",
+    "question": "What was the Cold War and what event symbolized its end?",
+    "rubric": "Cold War Description: 0 points - does not describe Cold War, 1 point - mentions U.S. and Soviet conflict, 2 points - explains it was ideological tension (capitalism vs communism) without direct military conflict. End Event: 0 points - does not identify ending event, 1 point - mentions Berlin Wall or Soviet collapse, 2 points - clearly states fall of Berlin Wall (1989) or Soviet dissolution (1991). Context: 0 points - no additional context, 1 point - mentions one detail like dates or events, 2 points - includes multiple relevant details (dates, key events, symbols).",
+    "student_answer": "The Cold War was tension between the U.S. and Soviet Union about capitalism versus communism without actual war. It ended with the fall of the Berlin Wall in 1989.",
+    "student_grade": 12,
+    "llm_scoring_output": {
+      "criterion_1_score": 2,
+      "criterion_1_reasoning": "Excellent characterization! You identified the key elements: U.S.-Soviet tension, the ideological dimension (capitalism vs. communism), and importantly, that it was 'without actual war' (no direct military conflict).",
+      "criterion_2_score": 2,
+      "criterion_2_reasoning": "Perfect! You correctly identified the fall of the Berlin Wall in 1989 as the symbolic end of the Cold War, including the specific year.",
+      "criterion_3_score": 1,
+      "criterion_3_reasoning": "You included the date for the Berlin Wall's fall (1989), which is good. Your answer would be even stronger with mention of the overall time period (1947-1991) or the subsequent Soviet dissolution.",
+      "total_score": 5,
+      "overall_feedback": "Strong answer that demonstrates solid understanding of the Cold War's nature and conclusion. Your response is concise and accurate, correctly emphasizing the ideological conflict and the symbolic ending. To achieve a perfect score, consider adding the overall timeframe or mentioning that the Soviet Union dissolved in 1991, which formally concluded the Cold War."
+    },
+    "expected_score": 5
+  },
+  {
+    "id": "assignment-eval-014",
+    "passage": "Newton's First Law of Motion states that an object at rest stays at rest, and an object in motion stays in motion at constant velocity, unless acted upon by an unbalanced force. This property is called inertia. Inertia is the tendency of objects to resist changes in their motion. More massive objects have greater inertia, meaning they require more force to change their motion. Examples include a hockey puck sliding on ice continuing until friction stops it, or passengers lurching forward when a car suddenly brakes.",
+    "question": "What is Newton's First Law and what is inertia?",
+    "rubric": "First Law Statement: 0 points - does not state the law, 1 point - partial statement, 2 points - clearly states objects at rest/motion stay that way unless force acts on them. Inertia Definition: 0 points - does not define inertia, 1 point - vague definition, 2 points - defines inertia as resistance to changes in motion. Examples/Details: 0 points - no examples or supporting details, 1 point - mentions mass relationship vaguely, 2 points - explains more massive objects have greater inertia or provides examples.",
+    "student_answer": "Newton's First Law says objects at rest stay at rest and objects in motion stay in motion unless a force acts on them. Inertia is the resistance to changes in motion.",
+    "student_grade": 9,
+    "llm_scoring_output": {
+      "criterion_1_score": 2,
+      "criterion_1_reasoning": "Perfect statement of Newton's First Law! You captured both parts: objects at rest staying at rest and objects in motion staying in motion, plus the crucial condition 'unless a force acts on them.'",
+      "criterion_2_score": 2,
+      "criterion_2_reasoning": "Excellent definition of inertia! You correctly identified it as 'resistance to changes in motion,' which is exactly what the passage states.",
+      "criterion_3_score": 0,
+      "criterion_3_reasoning": "Your answer is accurate but basic. You didn't mention that more massive objects have greater inertia, nor did you provide any examples like the hockey puck or car braking scenario from the passage.",
+      "total_score": 4,
+      "overall_feedback": "You've got the core concepts down perfectly—both Newton's First Law and the definition of inertia are correct. To earn full points, add supporting details: mention that more massive objects have greater inertia, or give an example like 'a hockey puck keeps sliding on ice until friction stops it.' These details show deeper understanding and application of the concept."
+    },
+    "expected_score": 4
+  },
+  {
+    "id": "assignment-eval-015",
+    "passage": "The internet is a global network of interconnected computers that communicate using standardized protocols. It originated from ARPANET, a U.S. Department of Defense project in the late 1960s designed to create a decentralized communication network. Tim Berners-Lee invented the World Wide Web in 1989, which made the internet accessible and user-friendly through browsers and hyperlinks. The internet has revolutionized communication, commerce, education, and entertainment. Today, billions of devices connect to the internet, from computers and smartphones to home appliances and vehicles.",
+    "question": "How did the internet originate and who made it accessible to the public?",
+    "rubric": "Origin: 0 points - does not explain origin, 1 point - mentions military or government vaguely, 2 points - identifies ARPANET as Defense Department project in late 1960s. Accessibility Figure: 0 points - does not name the person, 1 point - names Tim Berners-Lee without context, 2 points - credits Tim Berners-Lee with inventing the World Wide Web (1989). Impact: 0 points - no mention of impact, 1 point - vague importance stated, 2 points - mentions specific impacts like revolutionizing communication, commerce, education.",
+    "student_answer": "The internet came from ARPANET, which was a Defense Department project in the late 1960s. Tim Berners-Lee made it accessible by creating the World Wide Web in 1989, which used browsers and hyperlinks.",
+    "student_grade": 11,
+    "llm_scoring_output": {
+      "criterion_1_score": 2,
+      "criterion_1_reasoning": "Outstanding! You provided complete origin information: ARPANET, Department of Defense, and late 1960s. This is exactly what the passage states.",
+      "criterion_2_score": 2,
+      "criterion_2_reasoning": "Perfect! You correctly identified Tim Berners-Lee, mentioned the World Wide Web invention in 1989, and even added how it worked (browsers and hyperlinks). Excellent detail!",
+      "criterion_3_score": 0,
+      "criterion_3_reasoning": "Your answer is accurate but doesn't discuss the internet's impact. The passage mentions it revolutionized communication, commerce, education, and entertainment.",
+      "total_score": 4,
+      "overall_feedback": "Excellent answer with precise historical details! You accurately traced the internet's origin and correctly credited Tim Berners-Lee. Your inclusion of browsers and hyperlinks shows you read carefully. To earn full points, add one sentence about impact: 'The internet revolutionized communication, commerce, and education' or similar. This would show you understand not just the history, but also the significance."
+    },
+    "expected_score": 4
+  },
+  {
+    "id": "assignment-eval-016",
+    "passage": "Volcanic eruptions occur when magma from beneath Earth's crust reaches the surface. Volcanoes form at tectonic plate boundaries where plates collide or separate, and at hot spots where plumes of hot mantle material rise. There are several types of eruptions: effusive eruptions produce slow-moving lava flows, while explosive eruptions violently eject ash, rock, and gases. The Ring of Fire, a zone around the Pacific Ocean, contains about 75% of the world's active volcanoes. Eruptions can be destructive but also create fertile soil.",
+    "question": "What causes volcanic eruptions and what are two types of eruptions?",
+    "rubric": "Cause Explanation: 0 points - does not explain cause, 1 point - mentions magma but unclear, 2 points - explains magma reaches surface and/or mentions plate boundaries or hot spots. Eruption Types: 0 points - does not name types, 1 point - names one type, 2 points - identifies both effusive and explosive eruptions with brief descriptions. Accuracy: 0 points - incorrect information, 1 point - mostly accurate, 2 points - fully accurate with passage details.",
+    "student_answer": "Volcanoes erupt when magma comes to the surface at plate boundaries or hot spots. Two types are effusive eruptions with slow lava, and explosive eruptions with ash and rock.",
+    "student_grade": 8,
+    "llm_scoring_output": {
+      "criterion_1_score": 2,
+      "criterion_1_reasoning": "Excellent explanation! You mentioned magma reaching the surface and identified two location types: plate boundaries and hot spots. Complete answer for this criterion.",
+      "criterion_2_score": 2,
+      "criterion_2_reasoning": "Perfect! You named both types (effusive and explosive) and included distinguishing characteristics: slow lava for effusive, ash and rock for explosive.",
+      "criterion_3_score": 2,
+      "criterion_3_reasoning": "All your information is accurate and directly from the passage. You used correct terminology and descriptions throughout.",
+      "total_score": 6,
+      "overall_feedback": "Fantastic answer! You demonstrated complete understanding by explaining the cause clearly and distinguishing between the two eruption types with accurate details. Your response is well-organized and hits all the key points. This is exactly the quality of answer we look for in 8th grade earth science. Excellent work!"
+    },
+    "expected_score": 6
+  },
+  {
+    "id": "assignment-eval-017",
+    "passage": "The Treaty of Versailles, signed in 1919, officially ended World War I. The treaty imposed harsh penalties on Germany, including massive financial reparations, territorial losses, and military restrictions. Germany was forced to accept full responsibility for causing the war under the 'war guilt clause.' Many historians argue that these punitive terms created economic hardship and resentment in Germany, contributing to the rise of Adolf Hitler and the Nazi Party. The treaty's failure to create lasting peace demonstrated the difficulties of post-war reconciliation.",
+    "question": "What did the Treaty of Versailles do to Germany and what were its long-term consequences?",
+    "rubric": "Treaty Terms: 0 points - does not explain what treaty did, 1 point - mentions penalties vaguely, 2 points - identifies specific terms like reparations, territorial losses, war guilt clause, or military restrictions. Consequences: 0 points - no consequences mentioned, 1 point - vague mention of problems, 2 points - clearly connects to economic hardship, resentment, or rise of Hitler/Nazis. Analysis: 0 points - purely factual with no connection, 1 point - attempts to connect cause and effect, 2 points - clearly explains how treaty terms led to consequences.",
+    "student_answer": "The treaty made Germany pay money and give up land and military. This caused problems in Germany later.",
+    "student_grade": 10,
+    "llm_scoring_output": {
+      "criterion_1_score": 1,
+      "criterion_1_reasoning": "You identified three general penalty categories (financial, territorial, military), which shows basic comprehension. However, using more precise terms from the passage—'reparations,' 'territorial losses,' 'military restrictions,' or the 'war guilt clause'—would demonstrate deeper engagement with the material.",
+      "criterion_2_score": 1,
+      "criterion_2_reasoning": "You acknowledged that the treaty 'caused problems,' which is directionally correct but too vague for 10th grade analysis. The passage specifically discusses economic hardship, resentment, and the rise of Hitler and the Nazi Party.",
+      "criterion_3_score": 0,
+      "criterion_3_reasoning": "Your answer lists facts but doesn't explain the causal relationship. You need to show HOW the harsh penalties led to specific consequences. The passage argues that economic hardship and resentment contributed to Hitler's rise.",
+      "total_score": 2,
+      "overall_feedback": "Your answer demonstrates basic factual knowledge but needs significant development in two areas: (1) Use specific terminology from the passage—say 'reparations' instead of 'pay money' and mention the 'war guilt clause.' (2) Explain the cause-and-effect relationship: 'The harsh penalties created economic hardship and resentment in Germany, which contributed to the rise of Adolf Hitler and the Nazi Party.' This analytical connection is crucial for understanding why the treaty failed to create lasting peace."
+    },
+    "expected_score": 2
+  },
+  {
+    "id": "assignment-eval-018",
+    "passage": "DNA (deoxyribonucleic acid) is the molecule that contains genetic instructions for all living organisms. DNA has a double helix structure, resembling a twisted ladder. The sides of the ladder are made of sugar and phosphate molecules, while the rungs consist of four nitrogen bases: adenine (A), thymine (T), guanine (G), and cytosine (C). These bases pair in specific ways: A pairs with T, and G pairs with C. The sequence of these bases forms genes, which provide instructions for making proteins.",
+    "question": "Describe the structure of DNA and explain how the bases pair.",
+    "rubric": "Structure Description: 0 points - does not describe structure, 1 point - mentions double helix or ladder, 2 points - describes double helix with sugar-phosphate sides and base rungs. Base Pairing: 0 points - does not explain pairing, 1 point - mentions pairing occurs but no specifics, 2 points - correctly states A pairs with T and G pairs with C. Scientific Accuracy: 0 points - major errors present, 1 point - mostly accurate with minor issues, 2 points - uses correct scientific terminology throughout.",
+    "student_answer": "DNA is a double helix shaped like a twisted ladder. The sides are sugar and phosphate, and the rungs are nitrogen bases. Adenine pairs with thymine, and guanine pairs with cytosine.",
+    "student_grade": 9,
+    "llm_scoring_output": {
+      "criterion_1_score": 2,
+      "criterion_1_reasoning": "Excellent structural description! You used the double helix analogy, mentioned it's like a twisted ladder, and correctly identified sugar-phosphate sides with nitrogen base rungs. Complete and accurate.",
+      "criterion_2_score": 2,
+      "criterion_2_reasoning": "Perfect base pairing explanation! You correctly stated adenine pairs with thymine and guanine pairs with cytosine. This is exactly right.",
+      "criterion_3_score": 2,
+      "criterion_3_reasoning": "Outstanding use of scientific terminology! You used proper terms: double helix, sugar, phosphate, nitrogen bases, adenine, thymine, guanine, cytosine. All accurate and appropriate for biology.",
+      "total_score": 6,
+      "overall_feedback": "Excellent answer! You provided a complete, accurate description of DNA structure and base pairing using proper scientific terminology. This demonstrates strong understanding of molecular biology concepts. Your answer is well-organized, precise, and exactly what we're looking for in a 9th grade biology response. Outstanding work!"
+    },
+    "expected_score": 6
+  },
+  {
+    "id": "assignment-eval-019",
+    "passage": "Climate change refers to long-term shifts in global or regional climate patterns, particularly since the mid-20th century. The primary cause is increased greenhouse gas emissions from human activities, especially burning fossil fuels like coal, oil, and natural gas. These gases trap heat in the atmosphere, causing global temperatures to rise. Effects include melting polar ice, rising sea levels, more frequent extreme weather events, ocean acidification, and threats to biodiversity. Scientists agree that immediate action is needed to reduce emissions and mitigate impacts.",
+    "question": "What causes climate change and what are three effects mentioned in the passage?",
+    "rubric": "Cause Identification: 0 points - does not identify cause, 1 point - mentions human activities vaguely, 2 points - specifically identifies greenhouse gas emissions from burning fossil fuels. Effects Listed: 0 points - no effects mentioned, 1 point - one or two effects, 2 points - three or more effects correctly listed from passage. Accuracy: 0 points - incorrect information, 1 point - mostly accurate but imprecise, 2 points - uses specific details from passage.",
+    "student_answer": "Climate change is caused by greenhouse gas emissions from burning fossil fuels like coal, oil, and gas. Three effects are melting ice, rising sea levels, and more extreme weather.",
+    "student_grade": 10,
+    "llm_scoring_output": {
+      "criterion_1_score": 2,
+      "criterion_1_reasoning": "Perfect! You identified greenhouse gas emissions from burning fossil fuels and even listed specific examples (coal, oil, gas). This shows thorough understanding of the cause.",
+      "criterion_2_score": 2,
+      "criterion_2_reasoning": "Excellent! You listed three distinct effects from the passage: melting ice, rising sea levels, and extreme weather events. All are accurate and directly from the text.",
+      "criterion_3_score": 2,
+      "criterion_3_reasoning": "Your answer uses specific, accurate details from the passage. You mentioned the exact fuels listed and chose clear, specific effects rather than vague descriptions.",
+      "total_score": 6,
+      "overall_feedback": "Outstanding answer! You demonstrated excellent reading comprehension by accurately identifying the cause with specific examples and listing three distinct effects. Your response is precise, well-organized, and complete. This is exactly the level of environmental science understanding expected at the 10th grade level. Excellent work!"
+    },
+    "expected_score": 6
+  },
+  {
+    "id": "assignment-eval-020",
+    "passage": "The Pythagorean Theorem states that in a right triangle, the square of the hypotenuse (the side opposite the right angle) equals the sum of the squares of the other two sides. This can be written as a² + b² = c², where c is the hypotenuse and a and b are the other sides. This theorem is fundamental to geometry and has practical applications in construction, navigation, and computer graphics. For example, if a right triangle has sides of 3 and 4 units, the hypotenuse would be 5 units because 3² + 4² = 9 + 16 = 25, and √25 = 5.",
+    "question": "State the Pythagorean Theorem and explain what the variables represent.",
+    "rubric": "Theorem Statement: 0 points - does not state theorem, 1 point - incomplete or incorrect statement, 2 points - correctly states a² + b² = c² or equivalent description. Variable Explanation: 0 points - does not explain variables, 1 point - partial explanation, 2 points - clearly identifies c as hypotenuse and a, b as the other two sides. Application: 0 points - no additional context, 1 point - mentions right triangles, 2 points - provides example or mentions practical applications.",
+    "student_answer": "The Pythagorean Theorem is a² + b² = c². The variables a and b are the two shorter sides of a right triangle, and c is the hypotenuse, which is the side across from the right angle.",
+    "student_grade": 8,
+    "llm_scoring_output": {
+      "criterion_1_score": 2,
+      "criterion_1_reasoning": "Perfect! You correctly stated the theorem as a² + b² = c². This is the exact mathematical formula.",
+      "criterion_2_score": 2,
+      "criterion_2_reasoning": "Excellent variable explanation! You identified a and b as the two shorter sides and c as the hypotenuse, and you even added that the hypotenuse is 'across from the right angle.' Very thorough!",
+      "criterion_3_score": 1,
+      "criterion_3_reasoning": "You mentioned right triangles, which is good context. To get full points, you could have included the example from the passage (3-4-5 triangle) or mentioned a practical application like construction or navigation.",
+      "total_score": 5,
+      "overall_feedback": "Great answer! You stated the theorem correctly and explained the variables thoroughly. Your description of the hypotenuse's location shows good geometric understanding. To earn full points, add either the 3-4-5 example from the passage or mention a real-world application: 'This theorem is used in construction and navigation.' Otherwise, this is a strong, clear response!"
+    },
+    "expected_score": 5
+  }
+]
